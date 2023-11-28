@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0042de19-fe4b-451d-81df-ae43f4f83b77": {
+      "ProjectGuid": "0042de19-fe4b-451d-81df-ae43f4f83b77",
+      "DisplayName": "PRESENTACION",
+      "ColorIndex": 0
+    },
+    "39842511-6136-4c15-9309-dc15ac47168a": {
+      "ProjectGuid": "39842511-6136-4c15-9309-dc15ac47168a",
+      "DisplayName": "DATOS",
+      "ColorIndex": 1
+    },
+    "f244be47-d4c3-4aec-a987-5511b5dfdf1e": {
+      "ProjectGuid": "f244be47-d4c3-4aec-a987-5511b5dfdf1e",
+      "DisplayName": "NEGOCIO",
+      "ColorIndex": 2
+    },
+    "6a68b1d9-e461-4303-b8b7-46f53aad165f": {
+      "ProjectGuid": "6a68b1d9-e461-4303-b8b7-46f53aad165f",
+      "DisplayName": "ENTIDADES",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    },
+    "d6988034-bc6c-40c9-a843-f4f956a72168": {
+      "ProjectGuid": "d6988034-bc6c-40c9-a843-f4f956a72168",
+      "DisplayName": "LOL",
+      "ColorIndex": 4
+    },
+    "91ab2277-8ee4-40ea-85c4-4b8bf7da49f8": {
+      "ProjectGuid": "91ab2277-8ee4-40ea-85c4-4b8bf7da49f8",
+      "DisplayName": "PRESENTACION",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
