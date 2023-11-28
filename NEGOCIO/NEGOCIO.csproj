@@ -47,6 +47,7 @@
     <Compile Include="CN_Estado.cs" />
     <Compile Include="CN_Llamada.cs" />
     <Compile Include="CN_Pregunta.cs" />
+    <Compile Include="CN_PreguntaCsv.cs" />
     <Compile Include="CN_RespuestaCliente.cs" />
     <Compile Include="CN_RespuestaPosible.cs" />
     <Compile Include="CN_Usuario.cs" />

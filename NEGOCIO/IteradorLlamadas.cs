@@ -37,16 +37,17 @@ namespace NEGOCIO
         {
             posicionActual++;
         }
-
         public bool cumpleFiltro(List<DateTime> filtros)
         {
-            foreach(Llamada llamada in llamadas)
+            if (actual() is Llamada llamada)
             {
-                bool var5 = new CN_Llamada().esDePeriodo(filtros[0], filtros[1],llamada);
-            }    
-            
-            
+                bool var5 = new CN_Llamada().esDePeriodo(filtros[0], filtros[1], llamada);
+
+                if(var5){
+                    return true;
+                }
+            }
+            return false;
         }
-       
     }
 }

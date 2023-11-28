@@ -13,31 +13,47 @@ using System.IO;
 
 namespace PRESENTACION
 {
-    public class GestorConsultaEncuesta: ISujeto
+    public class GestorConsultaEncuesta:ISujeto
     {
 
-		public IIterador CrearIterador(List<Llamada> llamadasDelGestor)
-        {
-			IIterador iterador = new IteradorLlamadas();
-			return iterador;
+		public IIterador CrearIterador(object[] llamadasDelGestor)
+		{
+			if (llamadasDelGestor != null && llamadasDelGestor.Length > 0 && llamadasDelGestor[0] is Llamada)
+			{
+				return new IteradorLlamadas((Llamada[])llamadasDelGestor);
+			}
+			else
+			{
+				// Puedes manejar otros tipos de objetos o devolver un iterador genérico según tus necesidades.
+				return null;
+			}
 
-        }
+		}
 
 		public List<Llamada> buscarLlamadasEncuestasRespondidas(DateTime fechainicio, DateTime fechafin)
-		{   
+		{
 			List<Llamada> llamadasConEncuesta = new List<Llamada>();
 			List<Llamada> llamadasDelGestor = new CN_Llamada().Listar();
+			IIterador iterador = CrearIterador(llamadasDelGestor.ToArray());
+			List<DateTime> filtro = new List<DateTime>();
+			filtro.Add(fechainicio);
+			filtro.Add(fechafin);
 
-
-			foreach (Llamada llamada in llamadasDelGestor)
+			while (iterador.haTerminado() != true)
 			{
-				bool var5 =  new CN_Llamada().esDePeriodo(fechainicio, fechafin,llamada);
-				if (var5 == true)
+				Llamada llamadaActual = (Llamada)iterador.actual();
+				foreach (Llamada llamada in llamadasDelGestor)
 				{
-					if (llamada.encuestaEnviada == true)
+					bool cumpleFiltros = iterador.cumpleFiltro(filtro);
+
+					if (cumpleFiltros == true)
 					{
-						llamadasConEncuesta.Add(llamada);
+						if (llamada.encuestaEnviada == true)
+						{
+							llamadasConEncuesta.Add(llamada);
+						}
 					}
+					iterador.siguiente();
 				}
 			}
 			return llamadasConEncuesta;
@@ -78,12 +94,6 @@ namespace PRESENTACION
 
 			listaTotal.Add(lista1);
 			listaTotal.Add(lista2);
-			/*
-			this.ListaPreguntas = lista2;
-			this.ListaEncabezado = lista1;
-			this.ListaFinalDeDatos = listaTotal;
-			*/
-			
 			
 
 			return listaTotal;

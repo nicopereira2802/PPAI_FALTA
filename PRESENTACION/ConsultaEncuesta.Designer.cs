@@ -44,16 +44,22 @@
             // dateTimeInicio
             // 
             this.dateTimeInicio.Location = new System.Drawing.Point(70, 133);
+            this.dateTimeInicio.MaxDate = new System.DateTime(2023, 11, 28, 0, 0, 0, 0);
+            this.dateTimeInicio.MinDate = new System.DateTime(2023, 1, 1, 0, 0, 0, 0);
             this.dateTimeInicio.Name = "dateTimeInicio";
             this.dateTimeInicio.Size = new System.Drawing.Size(282, 22);
             this.dateTimeInicio.TabIndex = 0;
+            this.dateTimeInicio.Value = new System.DateTime(2023, 1, 1, 0, 0, 0, 0);
             // 
             // dateTimeFin
             // 
             this.dateTimeFin.Location = new System.Drawing.Point(70, 221);
+            this.dateTimeFin.MaxDate = new System.DateTime(2023, 11, 28, 0, 0, 0, 0);
+            this.dateTimeFin.MinDate = new System.DateTime(2023, 1, 1, 0, 0, 0, 0);
             this.dateTimeFin.Name = "dateTimeFin";
             this.dateTimeFin.Size = new System.Drawing.Size(282, 22);
             this.dateTimeFin.TabIndex = 1;
+            this.dateTimeFin.Value = new System.DateTime(2023, 11, 28, 0, 0, 0, 0);
             // 
             // label1
             // 

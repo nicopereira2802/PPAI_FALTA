@@ -19,5 +19,7 @@ namespace NEGOCIO
 
         // Mueve el iterador al siguiente elemento de la colección.
         void siguiente();
+
+        bool cumpleFiltro(List<DateTime> filtros);
     }
 }

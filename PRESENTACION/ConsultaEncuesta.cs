@@ -23,13 +23,17 @@ namespace PRESENTACION
     {
         private DateTime fechaInicioAnterior;
         private DateTime fechaFinAntlistaLlamadaDatoserior;
+        private bool Inicio;
+        
         List<List<string>> listaLlamadaDatos;
+
         GestorConsultaEncuesta gestor = new GestorConsultaEncuesta();
         public ConsultaEncuesta()
         {
             InitializeComponent();
             dataGridLlamadas.CellFormatting += dataGridLlamadas_CellFormatting;
             dataGridLlamadas.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            Inicio = false;
 
         }
 
@@ -42,14 +46,14 @@ namespace PRESENTACION
             List<Llamada> llamadasEPantalla = gestor.validarPeriodo(fechaInicio, fechaFin);
             //List<Llamada> llamadasEPantalla = new CN_Llamada().Listar();
             mostrarLlamadas(llamadasEPantalla);
-            dataGridLlamadas.SelectionChanged += dataGridLlamadas_SelectionChanged;
 
+            dataGridLlamadas.SelectionChanged += dataGridLlamadas_SelectionChanged;
         }
 
         public void mostrarLlamadas(List<Llamada> llamadasCEncuesta)
         {
             // Columna para la propiedad Nombre de ClasePrincipal
-            // Columna para el atributo de OtraClase
+            
             dataGridLlamadas.DataSource = llamadasCEncuesta;
             dataGridLlamadas.Columns["descripcionOperador"].HeaderText = "Descripción del Operador";
             dataGridLlamadas.Columns["detalleEncuesta"].HeaderText = "Detalle de la Encuesta";
@@ -90,14 +94,6 @@ namespace PRESENTACION
                 // Obtener los valores de las celdas de la fila seleccionada
                 Llamada llamadaSeleccionado = (Llamada)selectedRow.DataBoundItem;
 
-                // Realizar cualquier otra acción que necesites con el objeto seleccionado
-                // ...
-                // Ejemplo de mostrar una propiedad del objeto en un MessageBox
-                MessageBox.Show("Se ha seleccionado la Llamada{llamadaSeleccionado.Idll} con operador {llamadaSeleccionado.descripcionOperador}", "Mensaje Informativo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                //List<string> listaLlamadaDatos = gestorConsultarEncuesta.tomarSeleccionLlamada(llamadaSeleccionado);
-                //mostrarDatosLLamada(listaLlamadaDatos);
-
                 listaLlamadaDatos = gestor.tomarSeleccionLlamada(llamadaSeleccionado);
          
                 mostrarDatosLista(listaLlamadaDatos);
@@ -129,6 +125,22 @@ namespace PRESENTACION
 
         {
             List<string> primeraLista = listaLlamadaDatos[0];
+            List<string> segundaLista = listaLlamadaDatos[1];
+            segundaLista.Reverse();
+            List<string> segundaListaPreguntas = new List<string>();
+
+            for (int i = 0; i < segundaLista.Count; i++)
+            {
+                // Excluir el primer elemento y las posiciones que son múltiplos de 3
+                if ((i + 1) % 3 != 0)
+                {
+                    segundaListaPreguntas.Add(segundaLista[i]);
+                }
+            }
+
+            List<PreguntaCsv> listaDePreguntas = new CN_PreguntaCsv().ConvertirLista(segundaListaPreguntas);
+
+
             string nombre = primeraLista[0].Trim();
             string estado = primeraLista[1].Trim();
             string duracion = primeraLista[2].Trim(); // Duración también es un string
@@ -140,7 +152,7 @@ namespace PRESENTACION
             List<Encabezado> listaDeEncabezados = new List<Encabezado> { encabezado };
 
             // Ruta del archivo CSV
-            string rutaArchivoCsv = "C:\\Users\\nicolas\\Desktop\\TERCERINTENTO\\PPAI_ORDENADO\\file.csv";
+            string rutaArchivoCsv = "C:\\Users\\nicolas\\Desktop\\TERCERINTENTO\\PPAI_ORDENADO\\RespuestasArchivo.csv";
 
             // Escribir los encabezados en el archivo CSV
             using (var writer = new StreamWriter(rutaArchivoCsv, false, Encoding.UTF8))
@@ -149,32 +161,15 @@ namespace PRESENTACION
                 csvWriter.WriteRecords(listaDeEncabezados);
             }
 
-        }
-        public class Registro
-        {
-            public int Id { get; set; }
-            public string Name { get; set; }
+            File.AppendAllText(rutaArchivoCsv, Environment.NewLine + "Preguntas:");
 
-            public Registro(int id, string name)
+            // Escribir los datos de las preguntas en el archivo CSV
+            using (var writer = new StreamWriter(rutaArchivoCsv, true, Encoding.UTF8))
+            using (var csvWriter = new CsvWriter(writer, CultureInfo.CurrentCulture))
             {
-                Id = id;
-                Name = name;
+                csvWriter.WriteRecords(listaDePreguntas);
             }
-        }
 
-        public class Encabezado
-        {
-            public string Nombre { get; set; }
-
-            public string Estado { get; set; }
-            public string Duracion { get; set; }
-
-            public Encabezado(string nombre, string estado,string duracion)
-            {
-                Nombre = nombre;
-                Estado = estado;
-                Duracion = duracion;
-            }
         }
     }
 }

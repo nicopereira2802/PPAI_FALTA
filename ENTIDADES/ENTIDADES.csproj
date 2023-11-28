@@ -43,10 +43,12 @@
   <ItemGroup>
     <Compile Include="CambioEstado.cs" />
     <Compile Include="Cliente.cs" />
+    <Compile Include="Encabezado.cs" />
     <Compile Include="Encuesta.cs" />
     <Compile Include="Estado.cs" />
     <Compile Include="Llamada.cs" />
     <Compile Include="Pregunta.cs" />
+    <Compile Include="PreguntaCsv.cs" />
     <Compile Include="RespuestaCliente.cs" />
     <Compile Include="RespuestaPosible.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
