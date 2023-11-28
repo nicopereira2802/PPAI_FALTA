@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConsultaEncuesta));
             this.dateTimeInicio = new System.Windows.Forms.DateTimePicker();
             this.dateTimeFin = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
@@ -165,6 +166,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(826, 445);
             this.Controls.Add(this.btnCsv);
             this.Controls.Add(this.listBox1);
@@ -177,6 +179,7 @@
             this.Controls.Add(this.dateTimeFin);
             this.Controls.Add(this.dateTimeInicio);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ConsultaEncuesta";
             this.Text = "ConsultaEncuesta";
