@@ -42,7 +42,6 @@ namespace PRESENTACION
             {
                 if (usu.nomusu == txtUsuario.Text && usu.clave == txtContrasena.Text)
                 {
-                    MessageBox.Show("¡Bienvenido, Usuario valido!", "Mensaje Informativo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     MenuPrincipal ventana = new MenuPrincipal(usu);
                     lec = true;
                     ventana.Show();
@@ -58,7 +57,12 @@ namespace PRESENTACION
 
         private void Iniciar_Sesion_Load(object sender, EventArgs e)
         {
+            string imagePath = "C:\\Users\\Mi PC\\Desktop\\DiseñodeSistemas\\PPAI3\\PPAI_FALTA\\IVR_logo.jpg";
+            Image image = Image.FromFile(imagePath);
 
+            // Ajustar la imagen al tamaño de la PictureBox
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.Image = image;
         }
 
         private void txtContrasena_TextChanged(object sender, EventArgs e)

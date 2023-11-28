@@ -20,3 +20,14 @@ C:\Users\nicolas\Desktop\TERCERINTENTO\PPAI_ORDENADO\NEGOCIO\obj\Debug\NEGOCIO.c
 C:\Users\nicolas\Desktop\TERCERINTENTO\PPAI_ORDENADO\NEGOCIO\obj\Debug\NEGOCIO.csproj.CopyComplete
 C:\Users\nicolas\Desktop\TERCERINTENTO\PPAI_ORDENADO\NEGOCIO\obj\Debug\NEGOCIO.dll
 C:\Users\nicolas\Desktop\TERCERINTENTO\PPAI_ORDENADO\NEGOCIO\obj\Debug\NEGOCIO.pdb
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\NEGOCIO\bin\Debug\NEGOCIO.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\NEGOCIO\bin\Debug\NEGOCIO.pdb
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\NEGOCIO\bin\Debug\DATOS.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\NEGOCIO\bin\Debug\ENTIDADES.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\NEGOCIO\bin\Debug\DATOS.pdb
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\NEGOCIO\bin\Debug\ENTIDADES.pdb
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\NEGOCIO\obj\Debug\NEGOCIO.csproj.AssemblyReference.cache
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\NEGOCIO\obj\Debug\NEGOCIO.csproj.CoreCompileInputs.cache
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\NEGOCIO\obj\Debug\NEGOCIO.csproj.CopyComplete
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\NEGOCIO\obj\Debug\NEGOCIO.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\NEGOCIO\obj\Debug\NEGOCIO.pdb

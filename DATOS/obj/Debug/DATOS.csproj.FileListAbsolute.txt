@@ -16,3 +16,12 @@ C:\Users\nicolas\Desktop\TERCERINTENTO\PPAI_ORDENADO\DATOS\obj\Debug\DATOS.cspro
 C:\Users\nicolas\Desktop\TERCERINTENTO\PPAI_ORDENADO\DATOS\obj\Debug\DATOS.csproj.CopyComplete
 C:\Users\nicolas\Desktop\TERCERINTENTO\PPAI_ORDENADO\DATOS\obj\Debug\DATOS.dll
 C:\Users\nicolas\Desktop\TERCERINTENTO\PPAI_ORDENADO\DATOS\obj\Debug\DATOS.pdb
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\DATOS\bin\Debug\DATOS.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\DATOS\bin\Debug\DATOS.pdb
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\DATOS\bin\Debug\ENTIDADES.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\DATOS\bin\Debug\ENTIDADES.pdb
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\DATOS\obj\Debug\DATOS.csproj.AssemblyReference.cache
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\DATOS\obj\Debug\DATOS.csproj.CoreCompileInputs.cache
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\DATOS\obj\Debug\DATOS.csproj.CopyComplete
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\DATOS\obj\Debug\DATOS.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\DATOS\obj\Debug\DATOS.pdb

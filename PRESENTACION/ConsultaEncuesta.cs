@@ -118,6 +118,12 @@ namespace PRESENTACION
             }
         private void ConsultaEncuesta_Load(object sender, EventArgs e)
         {
+            string imagePath = "C:\\Users\\Mi PC\\Desktop\\DiseñodeSistemas\\PPAI3\\PPAI_FALTA\\lineas_1.jpg";
+            Image image = Image.FromFile(imagePath);
+
+            // Ajustar la imagen al tamaño de la PictureBox
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.Image = image;
 
         }
 
@@ -170,6 +176,21 @@ namespace PRESENTACION
                 csvWriter.WriteRecords(listaDePreguntas);
             }
 
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

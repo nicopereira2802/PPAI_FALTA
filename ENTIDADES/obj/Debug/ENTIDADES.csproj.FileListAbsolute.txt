@@ -10,3 +10,9 @@ C:\Users\nicolas\Desktop\TERCERINTENTO\PPAI_ORDENADO\ENTIDADES\obj\Debug\ENTIDAD
 C:\Users\nicolas\Desktop\TERCERINTENTO\PPAI_ORDENADO\ENTIDADES\obj\Debug\ENTIDADES.csproj.CoreCompileInputs.cache
 C:\Users\nicolas\Desktop\TERCERINTENTO\PPAI_ORDENADO\ENTIDADES\obj\Debug\ENTIDADES.dll
 C:\Users\nicolas\Desktop\TERCERINTENTO\PPAI_ORDENADO\ENTIDADES\obj\Debug\ENTIDADES.pdb
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\ENTIDADES\bin\Debug\ENTIDADES.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\ENTIDADES\bin\Debug\ENTIDADES.pdb
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\ENTIDADES\obj\Debug\ENTIDADES.csproj.AssemblyReference.cache
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\ENTIDADES\obj\Debug\ENTIDADES.csproj.CoreCompileInputs.cache
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\ENTIDADES\obj\Debug\ENTIDADES.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\ENTIDADES\obj\Debug\ENTIDADES.pdb

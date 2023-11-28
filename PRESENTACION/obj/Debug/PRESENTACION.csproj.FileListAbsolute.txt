@@ -52,3 +52,39 @@ C:\Users\nicolas\Desktop\TERCERINTENTO\PPAI_ORDENADO\PRESENTACION\bin\Debug\Syst
 C:\Users\nicolas\Desktop\TERCERINTENTO\PPAI_ORDENADO\PRESENTACION\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\nicolas\Desktop\TERCERINTENTO\PPAI_ORDENADO\PRESENTACION\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\nicolas\Desktop\TERCERINTENTO\PPAI_ORDENADO\PRESENTACION\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\PRESENTACION.exe.config
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\PRESENTACION.exe
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\PRESENTACION.pdb
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\CsvHelper.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\ENTIDADES.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\NEGOCIO.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\System.Buffers.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\System.Memory.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\DATOS.dll
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\ENTIDADES.pdb
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\NEGOCIO.pdb
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\CsvHelper.xml
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\System.Buffers.xml
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\System.Memory.xml
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\bin\Debug\DATOS.pdb
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\obj\Debug\PRESENTACION.csproj.AssemblyReference.cache
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\obj\Debug\PRESENTACION.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\obj\Debug\PRESENTACION.ConsultaEncuesta.resources
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\obj\Debug\PRESENTACION.Iniciar_Sesion.resources
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\obj\Debug\PRESENTACION.MenuPrincipal.resources
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\obj\Debug\PRESENTACION.Properties.Resources.resources
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\obj\Debug\PRESENTACION.csproj.GenerateResource.cache
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\obj\Debug\PRESENTACION.csproj.CoreCompileInputs.cache
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\obj\Debug\PRESENTACION.csproj.CopyComplete
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\obj\Debug\PRESENTACION.exe
+C:\Users\Mi PC\Desktop\DiseñodeSistemas\PPAI3\PPAI_FALTA\PRESENTACION\obj\Debug\PRESENTACION.pdb
